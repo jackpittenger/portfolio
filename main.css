@@ -33,16 +33,12 @@ section h1 {
 }
 
 .icon {
-    height: 12vh;
-    width: 95vw;
+    max-height: 12vh;
+    max-width: 95vw;
 }
 
-section#home {
-    position: absolute;
-}
 
 section#home #hi {
-    /*position: absolute;*/
     padding-top: 12vh;
     font-style: italic;
     font-weight: normal;
@@ -72,4 +68,23 @@ section#home #moon {
 
 ul {
     list-style-type: none;
+}
+
+nav {
+    padding-bottom: 3vh;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+}
+
+nav ul li {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 3vh;
+}
+
+nav ul li a {
+    color: white;
 }
