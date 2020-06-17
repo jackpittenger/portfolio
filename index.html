@@ -8,10 +8,10 @@
 <body>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a onClick="scrollSkills('#home', 'Home')" href="javascript:">Home</a></li>
+            <li><a onClick="scrollSkills('#skills', 'Skills')" href="javascript:">Skills</a></li>
+            <li><a onClick="scrollSkills('#portfolio', 'Portfolio')" href="javascript:">Portfolio</a></li>
+            <li><a onClick="scrollSkills('#contact', 'Contact')" href="javascript:">Contact</a></li>
         </ul>
     </nav>
     <div id="particles"></div>
@@ -36,6 +36,12 @@
     <script src="particles.min.js"></script>
     <script>
         particlesJS.load("particles",  "particlesjs-config.json")
+        function scrollSkills(selector, title) {
+            document.querySelector(selector).scrollIntoView({
+                behavior: 'smooth'
+            });
+            window.history.pushState(null, title, selector);
+        }
     </scripT>
 </body>
 </html>
