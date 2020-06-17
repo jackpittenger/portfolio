@@ -71,7 +71,12 @@ ul {
 }
 
 nav {
-    padding-bottom: 3vh;
+    overflow: hidden;
+    padding-bottom: 4vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
 }
 
 nav ul {
@@ -86,5 +91,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2vh 2vh;
+    text-decoration: none;
+    max-font-size: 2vw 3vh;
 }
