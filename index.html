@@ -83,14 +83,15 @@
     <script src="particles.min.js"></script>
     <script>
         particlesJS.load("particles",  "particlesjs-config.json")
+        typeScroll = (navigator.userAgent.indexOf('MSIE') > -1 || navigator.userAgent.indexOf("Safari") > -1  || navigator.userAgent.indexOf("Opera Mini") > -1) ? "auto" : "smooth";
         window.addEventListener('resize', function(){
             document.querySelector(window.location.hash ||  "#home").scrollIntoView({
-                behavior: 'smooth'
+                behavior: typeScroll
             });
         });
         function scrollSkills(selector, title) {
             document.querySelector(selector).scrollIntoView({
-                behavior: 'smooth'
+                behavior: typeScroll
             });
             window.history.pushState(null, title, selector);
         }
