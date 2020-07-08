@@ -5,30 +5,44 @@
 
 body {
     font-family: Roberto, Helvetica, sans-serif;
-    background: #333;
+    background: #262626;
     color: #fff;
     line-height: 1.6;
     height: 100vh;
     overflow: hidden;
     scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
     list-style-type: none;
 }
 
-.icon {
-    max-height: 12vh;
-    max-width: 95vw;
+hr {
+    margin: 40px;
 }
 
-.textContainer {
-    width: 100%;
-    display: table;
+.icon {
+    height: 5em;
+}
+
+#github {
+    margin-left: 40px;
+    height: 4em;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 #home {
-    text-align: center;
+    max-width: 800px;
 }
 
 #home h1 {
@@ -40,15 +54,6 @@ ul {
     vertical-align: middle;
     display: table-cell;
     padding: 0 2vw 0 2vw;
-}
-
-#home #hi {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 10em;
-    text-decoration-line: underline;
-    color: #FFEFEF;
-    transform: rotate(-0.57deg);
 }
 
 #particles {
@@ -94,4 +99,10 @@ nav a {
     height: 100vh;
     padding-top: 15px;
     margin-top: 11vh;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        font-size: 18px;
+    }
 }
