@@ -54,12 +54,23 @@ nav {
     justify-content: center;
 }
 
+nav .active {
+    color: lemonchiffon;
+    border-bottom: solid 1px lemonchiffon;
+}
+
 nav a {
     padding: 10px 0;
     margin: 0 30px;
     text-decoration: none;
     color: #f2f2f2;
     font-size: 1em;
+    border-bottom: solid 1px #aaaaaa;
+}
+
+nav a:not(.active):hover {
+    color: white;
+    border-bottom: solid 1px #ffffff;
 }
 
 @media only screen and (max-width: 768px) {
