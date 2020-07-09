@@ -1,0 +1,18 @@
+#contact {
+    font-size: 25px;
+}
+
+#ways {
+    margin: 15px;
+}
+
+#ways a {
+    text-decoration-line: none;
+    color: #cdcdcd;
+    border-bottom: solid 1px #aaaaaa;
+}
+
+#ways a:hover {
+    color: #fff;
+    border-bottom: solid 1px #ffffff;
+}
