@@ -1,5 +1,10 @@
+
 #portfolio {
     font-size: 22px;
+}
+
+h1 {
+    margin: 5px;
 }
 
 #projects {
@@ -47,4 +52,16 @@
     line-height: 1.4em;
     margin-top: 12px;
     color: #bbbbbb;
+}
+
+@media only screen and (max-width: 768px) {
+    .project a {
+        width: 320px;
+        height: 180px;
+    }
+
+    .project a img {
+        width: 320px;
+        height: 180px;
+    }
 }
