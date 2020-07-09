@@ -1,0 +1,50 @@
+#portfolio {
+    font-size: 22px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+.project {
+    max-width: 380px;
+    margin: 20px;
+}
+
+.project a {
+    width: 380px;
+    height: 214px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project a img {
+    width: 380px;
+    height: 214px;
+}
+
+.project .date {
+    color: #999999;
+}
+
+.project .title {
+    font-size: 1.2em;
+}
+
+.project h5 {
+    color: #bbb;
+    font-size: .7em;
+}
+
+.project p {
+    font-size: .7em;
+    line-height: 1.4em;
+    margin-top: 12px;
+    color: #bbbbbb;
+}

@@ -1,0 +1,22 @@
+#home hr {
+    margin: 40px;
+}
+
+#github {
+    margin-left: 40px;
+    height: 4em;
+}
+
+#home {
+    max-width: 800px;
+}
+
+#home h1 {
+    font-size: 4em;
+}
+
+#home p {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0 2vw 0 2vw;
+}

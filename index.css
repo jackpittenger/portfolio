@@ -20,17 +20,10 @@ ul {
     list-style-type: none;
 }
 
-#home hr {
-    margin: 40px;
-}
+
 
 .icon {
     height: 5em;
-}
-
-#github {
-    margin-left: 40px;
-    height: 4em;
 }
 
 #wrapper {
@@ -42,20 +35,6 @@ ul {
     padding: 40px 0;
 }
 
-#home {
-    max-width: 800px;
-}
-
-#home h1 {
-    font-size: 4em;
-}
-
-#home p {
-    vertical-align: middle;
-    display: table-cell;
-    padding: 0 2vw 0 2vw;
-}
-
 #particles {
     position: absolute;
     top: 0;
@@ -64,16 +43,6 @@ ul {
     width: 95%;
     z-index: -1;
     background-color: #262626;
-}
-
-#skillsList {
-    padding-top: 10vh;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#skillsList li {
-    flex: 1 0 21%;
 }
 
 nav {
@@ -91,10 +60,6 @@ nav a {
     text-decoration: none;
     color: #f2f2f2;
     font-size: 1em;
-}
-
-#skills {
-    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,0 +1,13 @@
+#skillsList {
+    padding-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skillsList li {
+    flex: 1 0 21%;
+}
+
+#skills {
+    text-align: center;
+}

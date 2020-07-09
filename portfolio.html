@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-
+<nav id="navbar">
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<div id="particles"></div>
+<div id="wrapper">
+    <div id="portfolio">
+        <h1>Portfolio</h1>
+        <p>Below is a non-exhaustive list of my projects.</p>
+        <hr/>
+        <div id="projects">
+            <div class="project">
+                <h4 class="date">June 2020</h4>
+                <h3 class="title">Link Shortener</h3>
+                <h5>Deno, git, CI/CD</h5>
+                <a>
+                    <img src="images/link_shortener.png" alt="Link Shortener">
+                </a>
+                <p>A simple link shortener built with Deno and MongoDB</p>
+            </div>
+            <div class="project">
+                <h4 class="date">January 2019 - Present</h4>
+                <h3 class="title">Prometheus Discord Roles</h3>
+                <h5>HTML/CSS, Node.js, MySQL, git, Marketing/Sales</h5>
+                <a>
+                    <img src="images/prometheus.png" alt="Prometheus Discord Roles"/>
+                </a>
+                <p>A production-level addon with over 170 purchases providing Garry's Mod server operators to sync their
+                    donors with Discord. To this day I continue to provide feature updates, bug fixes, and support.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="particles.min.js"></script>
+<script src="loadparticles.js"></script>
 </body>
 </html>
