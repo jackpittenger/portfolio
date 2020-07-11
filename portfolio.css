@@ -1,4 +1,3 @@
-
 #portfolio {
     font-size: 22px;
 }
@@ -27,6 +26,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .project a img {
@@ -63,17 +63,14 @@ h1 {
     text-align: center;
 }
 
-@Media only screen and (min-width: 600px) {
-    .project a:hover i {
-        opacity: 1;
-    }
-
-    .project a:hover img {
-        filter: blur(5px);
-        transform:scale(1.1);
-    }
+.project a:hover i {
+    opacity: 1;
 }
 
+.project a:hover img {
+    filter: blur(5px);
+    transform:scale(1.1);
+}
 
 @media only screen and (max-width: 768px) {
     .project a {
