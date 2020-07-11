@@ -63,13 +63,15 @@ h1 {
     text-align: center;
 }
 
-.project a:hover i {
-    opacity: 1;
-}
+@Media only screen and (min-width: 600px) {
+    .project a:hover i {
+        opacity: 1;
+    }
 
-.project a:hover img {
-    filter: blur(5px);
-    transform:scale(1.1);
+    .project a:hover img {
+        filter: blur(5px);
+        transform:scale(1.1);
+    }
 }
 
 
