@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/anonmoose
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://saddy.dev
+  * I am anonmoose (https://keybase.io/anonmoose) on keybase.
+  * I have a public key with fingerprint AA29 757C 6240 C05E 1D8B  C742 4C87 1CED B48E 823D
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010139881ae2aa60aae3b42044262be101269ec0862fef07b7a2a5ea46f979237a2c0a",
+      "fingerprint": "aa29757c6240c05e1d8bc7424c871cedb48e823d",
+      "host": "keybase.io",
+      "key_id": "4c871cedb48e823d",
+      "kid": "010139881ae2aa60aae3b42044262be101269ec0862fef07b7a2a5ea46f979237a2c0a",
+      "uid": "fc9ccf99735b88eb8a83362415b29719",
+      "username": "anonmoose"
+    },
+    "service": {
+      "hostname": "saddy.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1635730610,
+  "expire_in": 157680000,
+  "prev": "a4f1bb560eeb76198ddf032fcf0177933adfb922ec67b2dbf5935aa7b924af7b",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSBVBGD5e8kaGColdjaVeSmp39jK7BhEVGUSl6aEHq9PM7Kxnveye
+zu6xTnkJ1KJ7J0iSLlZgkT1kdoHyodKkixbdhIK0HtIeigrsoRCrWam3HpuX4f/n
++77/+4b/XnqCLy3u4NPY2lWdl924vrvNER+qX9G5k8O2HuXyd3IVdOKilTp13ECF
+qXP5HC/wgqipqoAoQEjhEaIilgAvSUABmLJXoGiU8KoCDGrwEEMEkEyRpBga1IDI
+SsIjLo8zTKuMhkNh03KZLEJAgzIkCpB4wstU0FVMoAQkokKBUB1LKlWBqDNi0HY8
+BjOHkUMXmjbrsSIwYe8f+P/sOzIhZxCNEEPToChjVaVYRaooMvOCjFkQQfOADg1b
+qIp66SzbqrJth3K1eRxrV5uEej/rRfkDcZCuRxfqtJoxQ2HbtYldydpB1w05+R7N
+jYY83DaKA38UAti0dPaLjFFNw45pW1y+wJDENT1JQRFlKPKKwOdxdHvIDNOA6SFk
+qKg8O94cNo65kwwBY1nhKcVQETRV1w1eBAYxeAFCTRSRbmANAEoUiIGODVkTZYQg
+60nIgJjzMm21bKbNRF1U5sUxyyzkRsIscfedjYm+uDRf0qR4b718aakZf5dOj0/+
+VXhWKfLX1GyOd+qSP/mTP68eaKrdIF1ZB0F/15Tp9e0V4Me3212j99tGak/4pf6j
+le9HGnNejuwJHF9TfKwkuGBTSuLklgeb5x5O/fj94aN9OUc6Mksyeu2jg8qqx2Hf
+zDmxseyvXfKehiyyfHzq6cZre/d1jGbt8N86eX7ZK+N2LNT55Fxh7qndVwfMxvKE
+xSl9pYO5s6flZWpvzANFP3e9WJm+KFiw/VrZeEMsuITMH+bKX+//0hp9m5uW7L/e
+6vuQnRVtUs2e1tilpUkN3e8SbtQXH8pYXSW2+VeUticUbGm5OTw01lGT5PYEJmmR
+3lkXm4NuZN6FZ6VDs9efqZshPf8N3VY65A==
+=0ACp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/anonmoose
+
+==================================================================
+
