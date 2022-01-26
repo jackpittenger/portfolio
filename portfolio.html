@@ -1,114 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css"/>
-</head>
-<body>
-<nav id="navbar">
-    <div class="nav-spacer"></div>
-    <a href="index"><i class="fa fa-home" aria-hidden="true"> </i> Home</a>
-    <div class="nav-spacer"></div>
-    <a href="skills"><i class="fa fa-list" aria-hidden="true"> </i> Skills</a>
-    <div class="nav-spacer"></div>
-    <a class="active" href="portfolio"><i class="fa fa-address-book" aria-hidden="true"> </i> Portfolio</a>
-    <div class="nav-spacer"></div>
-    <a href="contact"><i class="fa fa-address-card" aria-hidden="true"> </i> Contact</a>
-    <div class="nav-spacer"></div>
-</nav>
-<div id="particles"></div>
-<div id="wrapper">
-    <div id="portfolio">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-spacer"></div>
+      <a href="index"><i class="fa fa-home" aria-hidden="true"> </i> Home</a>
+      <div class="nav-spacer"></div>
+      <a href="skills"><i class="fa fa-list" aria-hidden="true"> </i> Skills</a>
+      <div class="nav-spacer"></div>
+      <a class="active" href="portfolio"
+        ><i class="fa fa-address-book" aria-hidden="true"> </i> Portfolio</a
+      >
+      <div class="nav-spacer"></div>
+      <a href="contact"
+        ><i class="fa fa-address-card" aria-hidden="true"> </i> Contact</a
+      >
+      <div class="nav-spacer"></div>
+    </nav>
+    <div id="particles"></div>
+    <div id="wrapper">
+      <div id="portfolio">
         <h1>Portfolio</h1>
         <p>Below is a non-exhaustive list of my projects.</p>
-        <hr/>
+        <hr />
         <div id="projects">
-            <div class="project">
-                <h4 class="date">June 2020</h4>
-                <h3 class="title">ChromeOS Battery Sync</h3>
-                <h5>Bash, Python, Javascript, Chrome App API</h5>
-                <a target="_blank" href="https://github.com/realSaddy/chromeos-battery-sync/">
-                    <img src="images/chromeosbattery.png" alt="ChromeOS Battery Sync">
-                    <i class="fa fa-external-link" aria-hidden="true"> </i>
-                </a>
-                <p>A ChromeOS application, Python socket server, and custom bash script for sending battery information
-                    from a Chromebook to its respective Crostini container for use in i3wm.</p>
-            </div>
-            <div class="project">
-                <h4 class="date">June 2020</h4>
-                <h3 class="title">WEPLAYVIDEOGAMES LLC</h3>
-                <h5>Discord Bots, Python, git, CI/CD</h5>
-                <a target="_blank" href="https://discord.gg/vAmgfn4">
-                    <img src="images/weplayvideogames.png" alt="WEPLAYVIDEOGAMES LLC">
-                    <i class="fa fa-external-link" aria-hidden="true"> </i>
-                </a>
-                <p>I created a profile builder, automatic logging, scheduled message sending, an invite/referral system,
-                    and a suggestion feature for a WEPLAYVIDEOGAMES LLC contract.</p>
-            </div>
-            <div class="project">
-                <h4 class="date">June 2020</h4>
-                <h3 class="title">Link Shortener</h3>
-                <h5>Deno, git, CI/CD</h5>
-                <a target="_blank" href="https://github.com/realSaddy/link">
-                    <img src="images/link_shortener.png" alt="Link Shortener">
-                    <i class="fa fa-external-link" aria-hidden="true"> </i>
-                </a>
-                <p>A simple link shortener built with Deno and MongoDB I used to learn Deno. It allows for custom shorts
-                    and it is hosted at https://l.saddy.dev.</p>
-            </div>
-            <div class="project">
-                <h4 class="date">Feburary 2020 - Present</h4>
-                <h3 class="title">JSA Vote</h3>
-                <h5>Node, React, Postgres, git, CI/CD, Typescript</h5>
-                <a target="_blank" href="https://github.com/realSaddy/JSA-Voting/">
-                    <img src="images/jsavote.png" alt="JSA Vote">
-                    <i class="fa fa-external-link" aria-hidden="true"> </i>
-                </a>
-                <p>A React application built on the MERN, rewritten on the PERN, stack with the purpose of providing an online live voting session
-			target towards debate conventions and organizations.</p>
-            </div>
-            <div class="project">
-                <h4 class="date">July 2019 - September 2019</h4>
-                <h3 class="title">Euphoria Networks</h3>
-                <h5>Discord Bots, Python, git</h5>
-                <a target="_blank" href="https://euphorianetworks.co">
-                    <img src="images/euphoria.png" alt="Euphoria Networks"/>
-                    <i class="fa fa-external-link" aria-hidden="true"> </i>
-                </a>
-                <p>A paid three-month contract working on various needs with a team of programmers mainly revolving
-                    around Discord bots and wanted implementations.</p>
-            </div>
-            <div class="project">
-                <h4 class="date">January 2019 - Present</h4>
-                <h3 class="title">Prometheus Discord Roles</h3>
-                <h5>HTML/CSS, Node.js, MySQL, git, Marketing/Sales</h5>
-                <a target="_blank" href="https://www.gmodstore.com/market/view/prometheus-discord-roles">
-                    <img src="images/prometheus.png" alt="Prometheus Discord Roles"/>
-                    <i class="fa fa-external-link" aria-hidden="true"> </i>
-                </a>
-                <p>A production-level addon with over 170 purchases providing Garry's Mod server operators to sync their
-                    donors with Discord. To this day I continue to provide feature updates, bug fixes, and support.</p>
-            </div>
-            <div class="project">
-                <h4 class="date">December 2018 - Present</h4>
-                <h3 class="title">Steam Servers</h3>
-                <h5>Node.js (later Python), MongoDB, git, CI/CD </h5>
-                <a target="_blank" href="https://github.com/realSaddy/SteamServ">
-                    <img src="images/steamservers.png" alt="Steam Servers"/>
-                    <i class="fa fa-external-link" aria-hidden="true"> </i>
-                </a>
-                <p>A fleshed out Discord bot that queries SRCDS server information to present readable information about
-                    Steam game servers. The current version is a rewrite of the original, and it is still hosted with
-                    over 800 servers.</p>
-            </div>
+          <div class="project">
+            <h4 class="date">January 2022</h4>
+            <h3 class="title">Torque Vision 2022</h3>
+            <h5>C++</h5>
+            <a target="_blank" href="videos/vision2022.mp4">
+              <img src="images/vision_detection_2022.png" alt="Turret" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A vision pipeline with an algorithm I built to identify FRC 2022
+              game balls.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">January 2022</h4>
+            <h3 class="title">Torque Turret</h3>
+            <h5>Java</h5>
+            <a target="_blank" href="videos/turret.mp4">
+              <img src="images/turret.png" alt="Turret" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A custom auto-tracking vision solution using a Limelight and
+              turret design for continous target tracking on a swerve drive.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">June 2021 - December 2021</h4>
+            <h3 class="title">Torque Swerve</h3>
+            <h5>Java</h5>
+            <a target="_blank" href="videos/swerve.mp4">
+              <img src="images/swerve.png" alt="Swerve" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A custom swerve drive implmentation to be used during the
+              2021-2022 season.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">July 2021 - Present</h4>
+            <h3 class="title">TorqueLearn</h3>
+            <h5>Rust</h5>
+            <a target="_blank" href="https://learn.texastorque.org">
+              <img src="images/torquelearn.png" alt="Torquelearn" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A custom-made wiki for FRC robotics knowledge fueled by Texas
+              Torque.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">June 2021</h4>
+            <h3 class="title">Bad Apple Khan Academy</h3>
+            <h5>Rust</h5>
+            <a
+              target="_blank"
+              href="https://github.com/realSaddy/BadAppleKhanAcademy/"
+            >
+              <img src="images/badapple.png" alt="YouTube video of it" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              I developed an experimental demoscene runner using Khan Academy's
+              processing.js implementation and Rust.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">June 2021</h4>
+            <h3 class="title">Texas Cup - 2021 Delta</h3>
+            <h5>Java</h5>
+            <a
+              target="_blank"
+              href="https://github.com/TexasTorque/TexasTorque2021Delta"
+            >
+              <img src="images/shiva.png" alt="2020-2021 Robot" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              I created the main competition code for Texas Torque (FRC 1477)'s
+              robots which placed in the Quarterfinals at the Texas Cup, 2021.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">June 2020</h4>
+            <h3 class="title">ChromeOS Battery Sync</h3>
+            <h5>Bash, Python, Javascript, Chrome App API</h5>
+            <a
+              target="_blank"
+              href="https://github.com/realSaddy/chromeos-battery-sync/"
+            >
+              <img
+                src="images/chromeosbattery.png"
+                alt="ChromeOS Battery Sync"
+              />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A ChromeOS application, Python socket server, and custom bash
+              script for sending battery information from a Chromebook to its
+              respective Crostini container for use in i3wm.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">June 2020</h4>
+            <h3 class="title">WEPLAYVIDEOGAMES LLC</h3>
+            <h5>Discord Bots, Python, git, CI/CD</h5>
+            <a target="_blank" href="https://discord.gg/vAmgfn4">
+              <img
+                src="images/weplayvideogames.png"
+                alt="WEPLAYVIDEOGAMES LLC"
+              />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              I created a profile builder, automatic logging, scheduled message
+              sending, an invite/referral system, and a suggestion feature for a
+              WEPLAYVIDEOGAMES LLC contract.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">June 2020</h4>
+            <h3 class="title">Link Shortener</h3>
+            <h5>Deno, git, CI/CD</h5>
+            <a target="_blank" href="https://github.com/realSaddy/link">
+              <img src="images/link_shortener.png" alt="Link Shortener" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A simple link shortener built with Deno and MongoDB I used to
+              learn Deno. It allows for custom shorts and it is hosted at
+              https://l.saddy.dev.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">Feburary 2020 - Feburary 2021</h4>
+            <h3 class="title">JSA Vote</h3>
+            <h5>Node, React, Postgres, git, CI/CD, Typescript</h5>
+            <a target="_blank" href="https://github.com/realSaddy/JSA-Voting/">
+              <img src="images/jsavote.png" alt="JSA Vote" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A React application built on the MERN, rewritten on the PERN,
+              stack with the purpose of providing an online live voting session
+              target towards debate conventions and organizations.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">July 2019 - September 2019</h4>
+            <h3 class="title">Euphoria Networks</h3>
+            <h5>Discord Bots, Python, git</h5>
+            <a target="_blank" href="https://euphorianetworks.co">
+              <img src="images/euphoria.png" alt="Euphoria Networks" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A paid three-month contract working on various needs with a team
+              of programmers mainly revolving around Discord bots and wanted
+              implementations.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">January 2019 - Feburary 2021</h4>
+            <h3 class="title">Prometheus Discord Roles</h3>
+            <h5>HTML/CSS, Node.js, MySQL, git, Marketing/Sales</h5>
+            <a
+              target="_blank"
+              href="https://www.gmodstore.com/market/view/prometheus-discord-roles"
+            >
+              <img src="images/prometheus.png" alt="Prometheus Discord Roles" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A production-level addon with over 170 purchases providing Garry's
+              Mod server operators to sync their donors with Discord. To this
+              day I continue to provide feature updates, bug fixes, and support.
+            </p>
+          </div>
+          <div class="project">
+            <h4 class="date">December 2018 - Present</h4>
+            <h3 class="title">Steam Servers</h3>
+            <h5>Node.js (later Python), MongoDB, git, CI/CD</h5>
+            <a target="_blank" href="https://github.com/realSaddy/SteamServ">
+              <img src="images/steamservers.png" alt="Steam Servers" />
+              <i class="fa fa-external-link" aria-hidden="true"> </i>
+            </a>
+            <p>
+              A fleshed out Discord bot that queries SRCDS server information to
+              present readable information about Steam game servers. The current
+              version is a rewrite of the original, and it is still hosted with
+              over 800 servers.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<script src="particles.min.js"></script>
-<script src="loadparticles.js"></script>
-</body>
+    <script src="particles.min.js"></script>
+    <script src="loadparticles.js"></script>
+  </body>
 </html>
